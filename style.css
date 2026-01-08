@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Class */
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn {
+    padding: 14px 16px;
+    background: #469165;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 5px #333;
+}
+
+.btn:hover {
+    transform: translateY(-7px);
+    border-radius: 10px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Main Class */
+
+nav {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo img {
+    cursor: pointer;
+}
+
+nav .menu a {
+    text-decoration: none;
+    margin-right: 32px;
+    font-size: 16px;
+    color: #000000;
+}
+
+#banner {
+    padding-top: 115px;
+    padding-bottom: 175px;
+    background: url("assets/hero-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-container {
+    text-align: center;
+}
+
+.banner-btn {
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.banner-content {
+    text-align: center;
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+.banner-content .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.banner-content .title h5 {
+    background: white;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #469165;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 {
+    font-size: 69px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #ffffffff;
+    margin-bottom: 16px;
+}
