@@ -256,6 +256,10 @@ footer {
     margin-bottom: 80px;
 }
 
+.footer-container .social .menu img {
+    cursor: pointer;
+}
+
 .footer-container .social .icons h5 {
     font-size: 20px;
     margin-bottom: 20px;
