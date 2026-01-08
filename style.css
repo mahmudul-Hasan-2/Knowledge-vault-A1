@@ -34,7 +34,6 @@
 
 .container {
     width: 85%;
-    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -167,4 +166,37 @@ nav .menu a {
 
 .card-box p {
     color: #627382;
+}
+
+#knowledge {
+    padding-top: 130px;
+}
+
+.knowledge-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.knowledge-content h5 {
+    color: #469165;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.knowledge-content h1 {
+    font-size: 48px;
+    color: black;
+}
+
+.knowledge-content p {
+    margin-bottom: 40px;
+}
+.box p {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
