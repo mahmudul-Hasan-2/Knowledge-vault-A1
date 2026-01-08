@@ -34,6 +34,7 @@
 
 .container {
     width: 85%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -115,4 +116,55 @@ nav .menu a {
     font-size: 18px;
     color: #ffffffff;
     margin-bottom: 16px;
+}
+
+#section-heading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#section-heading h1 {
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+}
+
+#section-heading p {
+    font-size: 16px;
+    color: #627382;
+}
+
+#card {
+    padding-top: 44px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-box {
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 0 8px #0000001f;
+    border-radius: 10px;
+    height: 240px;
+}
+
+.card-box img {
+    background: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.card-box h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.card-box p {
+    color: #627382;
 }
